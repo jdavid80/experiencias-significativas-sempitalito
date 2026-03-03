@@ -1,4 +1,28 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1 {
     text-align: center;
     color: darkcyan;
+    line-height: .4em;
+}
+nav {
+    width: 100%;
+    padding: 30px 20px;
+    display: grid;
+    grid-template: "borde-izq logo-escudo  espacio-central title-page borde-der" 110px/
+                    1fr       70px        20px             400px      1fr;
+/*     background-color: blue; */
+}
+.logo-escudo {
+    grid-area: logo-escudo;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title-page {
+    grid-area: title-page;
+}
+.title-experiencias, .title-secretaria {
+    color: rgb(9,67,181);
 }

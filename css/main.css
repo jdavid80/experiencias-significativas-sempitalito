@@ -7,20 +7,18 @@
 h1 {
     text-align: center;
     color: darkcyan;
-    line-height: .4em;
     font-size: 1.3em;
     margin-top: 15px;
 }
 h2 {
     font-size: 1.2em;
     text-align: center;
-    margin-top: 10px;
 }
 nav {
     width: 100%;
     padding: 10px 0;
     display: grid;
-    grid-template: "borde-izq logo-escudo  espacio-central title-page borde-der" 100px/
+    grid-template: "borde-izq logo-escudo  espacio-central title-page borde-der" 120px/
                     10px       60px        0             280px      5px;
 }
 .logo-escudo {
@@ -37,7 +35,7 @@ nav {
 }
 .colegios {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .colegio {
     width: 100%;

@@ -1,18 +1,27 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+/*     background-color: rgb(250,250,250); */
 }
 h1 {
     text-align: center;
     color: darkcyan;
     line-height: .4em;
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
 }
 nav {
     width: 100%;
-    padding: 30px 20px;
+    padding: 10px 0;
     display: grid;
-    grid-template: "borde-izq logo-escudo  espacio-central title-page borde-der" 110px/
-                    1fr       70px        20px             400px      1fr;
-/*     background-color: blue; */
+    grid-template: "borde-izq logo-escudo  espacio-central title-page borde-der" 100px/
+                    10px       60px        0             280px      5px;
 }
 .logo-escudo {
     grid-area: logo-escudo;
@@ -25,4 +34,45 @@ nav {
 }
 .title-experiencias, .title-secretaria {
     color: rgb(9,67,181);
+}
+.colegios {
+    width: 100%;
+    margin-top: 40px;
+}
+.colegio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-escudo-nombre {
+    width: 85%;
+    
+   box-shadow: rgba(50, 50, 93, 0.25) 5px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+
+}
+.box-escudo {
+    display: flex;
+    justify-content: center;
+
+}
+.img-escudos {
+/*     border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    width: 100%;
+    
+}
+.nombre-sede {
+    background-color: rgb(0,142,64);
+}
+.box-nombre {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0,142,64);
+    display: block;
+    z-index: 5;
+    color: white;
+/*     border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
 }
